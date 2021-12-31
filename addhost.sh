@@ -3,7 +3,7 @@ apt install jq curl -y
 DOMAIN=pencarigratisan.eu.org
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
 SUB_DOMAIN=${sub}.pencarigratisan.eu.org
-CF_ID=kreatorpemula.ytshort@gmail.com
+CF_ID=3827e15ef0fb781c267628c3722371c2
 CF_KEY=476dcf472aff5601282144debed1fb38f1f4a
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
